@@ -4,6 +4,7 @@ module.exports = ctx => ({
   description: 'Just playing around',
   dest: 'dist',
   smoothScroll: true,
+  evergreen: true,
   markdown: {
     lineNumbers: false
   },
@@ -15,22 +16,27 @@ module.exports = ctx => ({
       { text: 'Article', link: '/article/' },
       { text: 'Interview', link: '/interview/' },
       { text: 'Guide', link: '/guide/' },
+      { text: 'Recommend', link: '/recommend/' },
       {
         text: 'Contact',
         items: [
-          { text: 'bilibili', link: 'https://space.bilibili.com/12445328' }
+          { text: 'Github', link: 'https://github.com/tinfengyee' },
+          { text: 'bilibili', link: 'https://space.bilibili.com/12445328' },
+          { text: '微博', link: 'https://weibo.com/tinfengyee' },
+
         ]
       },
-      { text: 'Github', link: 'https://github.com/tinfengyee' },
+      
     ],
-    sidebarDepth: 1,
+    sidebarDepth: 2,
     sidebar: {
       '/interview/': [
         '',
         {
           title: 'javascript',
           children: [
-            'javascript/javascript'
+            'javascript/Javascript的this绑定解析',
+            'javascript/JavaScript深入之重新认识箭头函数的this'
           ]
         },
         {
@@ -64,8 +70,13 @@ module.exports = ctx => ({
       ],
       '/guide/': [
         ''
-      ]
+      ],
+      '/recommend/': [
+        ''
+      ],
     }
-  }
+  },
+  configureWebpack: (config, isServer) => {}
 })
+
 
