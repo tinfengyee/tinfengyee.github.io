@@ -5,5 +5,12 @@ B
 A
 A
 
+W
+B
+W
+
+W X
+W X
+B
 
 */

@@ -153,3 +153,46 @@ personA.show4()()
 personA.show4().call(personB)
 personA.show4.call(personB)()
 ```
+
+::: details 点击查看答案
+```js
+personA.show1() // personA，隐式绑定，调用者是 personA
+personA.show1.call(personB) // personB，显式绑定，调用者是 personB
+
+personA.show2() // personA，首先personA是new绑定，产生了新的构造函数作用域，
+				// 然后是箭头函数绑定，this指向外层作用域，即personA函数作用域
+personA.show2.call(personB) // personA，同上
+
+personA.show3()() // window，默认绑定，调用者是window
+personA.show3().call(personB) // personB，显式绑定，调用者是personB
+personA.show3.call(personB)() // window，默认绑定，调用者是window
+
+personA.show4()() // personA，箭头函数绑定，this指向外层作用域，即personA函数作用域  --- w  x
+personA.show4().call(personB) // personA，箭头函数绑定，call并没有改变外层作用域，  --- w  x
+							  // this指向外层作用域，即personA函数作用域
+personA.show4.call(personB)() // personB，解析同题目1，最后是箭头函数绑定，
+							  // this指向外层作用域，即改变后的person2函数作用域
+```
+
+题目一和题目二的区别在于题目二使用了new操作符。
+
+> 使用 new 操作符调用构造函数，实际上会经历一下4个步骤：
+>
+> 1. 创建一个新对象；
+> 2. 将构造函数的作用域赋给新对象（因此this就指向了这个新对象）；
+> 3. 执行构造函数中的代码（为这个新对象添加属性）；
+> 4. 返回新对象。
+
+
+
+我做错原因, 沙口了, A调用的肯定是A啊...........
+
+:::
+
+
+
+## 参考
+
+- [JavaScript深入之重新认识箭头函数的this-muyiy](https://muyiy.cn/blog/3/3.2.html)
+
+- [从这两套题，重新认识JS的this、作用域、闭包、对象](https://juejin.im/post/6844903493845647367)

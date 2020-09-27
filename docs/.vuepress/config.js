@@ -9,7 +9,7 @@ module.exports = ctx => ({
     lineNumbers: false
   },
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.jpg',
     lastUpdated: 'Last Updated', // string | boolean
     navbar: true,
     nav: [
