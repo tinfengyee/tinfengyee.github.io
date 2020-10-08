@@ -1,16 +1,17 @@
-/*
-A
-B
+let list = [1,2,3,4,2,1,5]
+const temp = {};
+let res = list.reduce((acc, cur) => {
+  if (acc.indexOf(cur) === -1) {
+    acc.push(cur)
+  }
+  return acc
+}, [])
 
-A
-A
+console.log(res);
 
-W
-B
-W
+// 888888888888888888888888888
 
-W X
-W X
-B
+// let map = new Map()
 
-*/
+// map.set('a', 1)
+// map.set('b', 2)
