@@ -1,6 +1,6 @@
 # Javascript的this绑定解析
 
-> 转载: [JavaScript深入之史上最全--5种this绑定全面解析-muyiy](https://muyiy.cn/blog/3/3.1.html)
+> 转载: 23[JavaScript深入之史上最全--5种this绑定全面解析-muyiy](https://muyiy.cn/blog/3/3.1.html)
 
 `this`是 JavaScript 语言的一个关键字。
 它是函数运行时，在函数体内部自动生成的一个对象，只能在函数体内部使用。
