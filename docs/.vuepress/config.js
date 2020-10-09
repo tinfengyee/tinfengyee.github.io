@@ -35,17 +35,17 @@ module.exports = ctx => ({
         {
           title: 'javascript',
           children: [
-            'javascript/array-duplicate-removal',
+            'javascript/let&const',
+            'javascript/this',
             'javascript/arrow-function&this',
-            'javascript/bind',
             'javascript/call&apply',
-            'javascript/closure',
+            'javascript/bind',
+            'javascript/new',
             'javascript/constructor&prototype&prototype-chain',
             'javascript/inherit',
+            'javascript/closure',
             'javascript/js-handwriting-code',
-            'javascript/let&const',
-            'javascript/new',
-            'javascript/this'
+            'javascript/array-duplicate-removal',
           ]
         },
         {

@@ -2,8 +2,6 @@
 
 > 转载: [深度解析 call 和 apply 原理、使用场景及实现-muyiy](https://muyiy.cn/blog/3/3.3.html)
 
-
-
 ## call() 和 apply()
 
 call() 方法调用一个函数, 其具有一个指定的 `this` 值和分别地提供的参数(**参数的列表**)。
@@ -20,8 +18,6 @@ var func = function(arg1, arg2) {
 func.call(this, arg1, arg2); // 使用 call，参数列表
 func.apply(this, [arg1, arg2]) // 使用 apply，参数数组
 ```
-
-
 
 ## 使用场景
 

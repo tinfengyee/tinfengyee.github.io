@@ -97,10 +97,9 @@ function _inherits(subType, superType) {
             configurable: true
         }
     });
-    
     if (superType) {
-        Object.setPrototypeOf 
-            ? Object.setPrototypeOf(subType, superType) 
+        Object.setPrototypeOf
+            ? Object.setPrototypeOf(subType, superType)
             : subType.__proto__ = superType;
     }
 }

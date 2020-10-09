@@ -3,6 +3,7 @@
 [reduce的高级用法](https://www.jianshu.com/p/e375ba1cfc47)
 
 1.计算数组中每个元素出现的次数
+
 ```js
 let names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
 
@@ -18,6 +19,7 @@ console.log(nameNum); //{Alice: 2, Bob: 1, Tiff: 1, Bruce: 1}
 ```
 
 2.数组去重
+
 ```js
 let myArray = ['a', 'b', 'a', 'b', 'c', 'e', 'e', 'c', 'd', 'd', 'd', 'd']
 let myOrderedArray = myArray.reduce((acc, cur) => {
@@ -29,6 +31,7 @@ let myOrderedArray = myArray.reduce((acc, cur) => {
 ```
 
 3.将二维数组转化为一维
+
 ```js
 let arr = [[0, 1], [2, 3], [4, 5]]
 let newArr = arr.reduce((pre,cur)=>{
@@ -38,6 +41,7 @@ console.log(newArr); // [0, 1, 2, 3, 4, 5]
 ```
 
 4.将多维数组转化为一维
+
 ```js
 let arr = [[0, 1], [2, 3], [4, [5, 6, 7]]]
 const flagArray = function (arr) {
@@ -47,6 +51,7 @@ console.log(flagArray(arr)); //[0, 1, 2, 3, 4, 5, 6, 7]
 ```
 
 5.对象里的属性求和
+
 ```js
 var result = [
     {
@@ -70,6 +75,7 @@ console.log(sum) //60
 ```
 
 6.reduce数组对象去重
+
 ```js
 let objArr = [ {id:1, name:'xm'}, {id:2, name:'lily'}, {id:3, name: 'gogo'}, {id:1, name: 'copy'} ];
 

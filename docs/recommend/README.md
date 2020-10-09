@@ -14,6 +14,12 @@
 
 - [木易杨前端进阶](https://muyiy.cn/) (JS手撕代码、面试题)
 
+- [木易杨前端进阶-github](https://github.com/yygmind/blog) (JS手撕代码、面试题)
+
 ## 文章
 
 - [从这两套题，重新认识JS的this、作用域、闭包、对象](https://juejin.im/post/6844903493845647367) `推荐`
+
+## 试题
+
+- [高频前端面试题](https://mp.weixin.qq.com/s/vXeACwujNKcLfnkBB9i9Yw)

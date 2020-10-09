@@ -2,9 +2,7 @@
 
 > 转载: [深度解析bind原理、使用场景及模拟实现-muyiy](https://muyiy.cn/blog/3/3.4.html)
 
-
-
-##  bind()
+## bind()
 
 `bind()` 方法会创建一个新函数，当这个新函数被调用时，它的 `this` 值是传递给 `bind()` 的第一个参数，传入bind方法的第二个以及以后的参数加上绑定函数运行时本身的参数按照顺序作为原函数的参数来调用原函数。bind返回的绑定函数也能使用 `new` 操作符创建对象：这种行为就像把原函数当成构造器，提供的 `this` 值被忽略，同时调用时的参数被提供给模拟函数。（来自参考1）
 
@@ -65,7 +63,7 @@ function Person(name){
         }, 500);
     }
 }
- 
+
 var person = new Person('jawil');
 person.distractedGreeting();
 //Hello, my name is Kitty
@@ -91,7 +89,7 @@ function Person(name){
         }, 500);
     }
 }
- 
+
 var person = new Person('jawil');
 person.distractedGreeting();
 // Hello, my name is jawil
@@ -110,7 +108,7 @@ function Person(name){
         }.bind(this), 500);
     }
 }
- 
+
 var person = new Person('jawil');
 person.distractedGreeting();
 // Hello, my name is jawil
@@ -168,7 +166,7 @@ isArray([1, 2, 3]);
 
 ### 3、柯里化（curry）
 
->  只传递给函数一部分参数来调用它，让它返回一个函数去处理剩下的参数。
+> 只传递给函数一部分参数来调用它，让它返回一个函数去处理剩下的参数。
 
 可以一次性地调用柯里化函数，也可以每次只传一个参数分多次调用。
 

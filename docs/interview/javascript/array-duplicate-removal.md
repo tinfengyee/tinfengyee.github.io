@@ -1,6 +1,7 @@
-# js去重
+# js数组去重
 
-[reduce去重-MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+[reduce数组去重-MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
 ```js
 let myArray = ['a', 'b', 'a', 'b', 'c', 'e', 'e', 'c', 'd', 'd', 'd', 'd']
 let myOrderedArray = myArray.reduce((acc, cur) => {
@@ -12,6 +13,7 @@ let myOrderedArray = myArray.reduce((acc, cur) => {
 ```
 
 reduce数组对象去重
+
 ```js
 let objArr = [ {id:1, name:'xm'}, {id:2, name:'lily'}, {id:3, name: 'gogo'}, {id:1, name: 'copy'} ];
 

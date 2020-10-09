@@ -1,8 +1,8 @@
 # new模拟实现
 
-> 转载: [深度解析 new 原理及模拟实现-muyiy](https://muyiy.cn/blog/3/3.5.html) 
+> 转载: [深度解析 new 原理及模拟实现-muyiy](https://muyiy.cn/blog/3/3.5.html)
 
-##  定义
+## 定义
 
 > **new 运算符**创建一个用户定义的对象类型的实例或具有构造函数的内置对象的实例。 ——（来自于MDN）
 
@@ -83,7 +83,6 @@ function _create(proto) {
 > 2. 没有 return，即返回 undefined
 > 3. 返回undefined 以外的基本类型
 
-
 ## 参考
 
-- [深度解析 new 原理及模拟实现-muyiy](https://muyiy.cn/blog/3/3.5.html) 
+- [深度解析 new 原理及模拟实现-muyiy](https://muyiy.cn/blog/3/3.5.html)
