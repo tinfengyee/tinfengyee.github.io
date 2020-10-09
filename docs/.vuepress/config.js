@@ -33,6 +33,16 @@ module.exports = ctx => ({
       '/interview/': [
         '',
         {
+          title: 'javascript',
+          children: [
+            'javascript/new模拟实现',
+            'javascript/理解闭包和闭包的作用',
+            'javascript/js去重',
+            'javascript/js手写代码',
+            'javascript/let和const与var变量声明',
+          ]
+        },
+        {
           title: 'vue',
           children: [
             'vue/vue'
