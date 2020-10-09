@@ -35,8 +35,17 @@ module.exports = ctx => ({
         {
           title: 'javascript',
           children: [
-            'javascript/js手写代码',
-            'javascript/let和const与var变量声明',
+            'javascript/array-duplicate-removal',
+            'javascript/arrow-function&this',
+            'javascript/bind',
+            'javascript/call&apply',
+            'javascript/closure',
+            'javascript/constructor&prototype&prototype-chain',
+            'javascript/inherit',
+            'javascript/js-handwriting-code',
+            'javascript/let&const',
+            'javascript/new',
+            'javascript/this'
           ]
         },
         {
