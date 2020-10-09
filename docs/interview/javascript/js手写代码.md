@@ -1,3 +1,5 @@
+# js手写代码
+
 [reduce的高级用法](https://www.jianshu.com/p/e375ba1cfc47)
 
 1.计算数组中每个元素出现的次数
