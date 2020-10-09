@@ -33,22 +33,6 @@ module.exports = ctx => ({
       '/interview/': [
         '',
         {
-          title: 'javascript',
-          children: [
-            'javascript/Javascript的this绑定解析',
-            'javascript/深度解析call和apply原理、使用场景及实现',
-            // 'javascript/深度解析bind原理、使用场景及模拟实现',
-            // 'javascript/JavaScript深入之重新认识箭头函数的this',
-            // 'javascript/javascript继承方案讲解',
-            // 'javascript/new模拟实现',
-            // 'javascript/理解闭包和闭包的作用',
-            // 'javascript/js去重',
-            // 'javascript/js手写代码',
-            // 'javascript/let和const与var变量声明',
-            // 'javascript/javascript构造函数、原型和原型链'
-          ]
-        },
-        {
           title: 'vue',
           children: [
             'vue/vue'
