@@ -43,8 +43,15 @@ module.exports = ctx => ({
             'javascript/new',
             'javascript/constructor&prototype&prototype-chain',
             'javascript/inherit',
-            'javascript/closure',
-            'javascript/js-handwriting-code',
+            'javascript/closure', // 1
+            'javascript/closure-test',
+            'javascript/memory&garbage-collection',
+            'javascript/memory-leak',
+            'javascript/constructor&prototype&prototype-chain',
+            'javascript/scope-chain',
+            'javascript/array-duplicate-removal',
+            'javascript/common-test',
+            'javascript/js-handwriting-code', // 2
             'javascript/array-duplicate-removal',
           ]
         },
