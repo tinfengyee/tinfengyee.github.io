@@ -184,7 +184,7 @@ console.log(4)
 
 如下图，内部任务指的是微任务， 外部任务指的是宏任务。
 
-![event-loop](../../.vuepress/public/img/event-loop.webp)
+![event-loop](../../.vuepress/public/img/event-loop.png)
 
 ### async/await
 
