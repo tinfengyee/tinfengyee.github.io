@@ -15,6 +15,7 @@
 - [木易杨前端进阶](https://muyiy.cn/) (JS手撕代码、面试题)
 
 - [木易杨前端进阶-github](https://github.com/yygmind/blog) (JS手撕代码、面试题)
+- [frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
 
 ## 文章
 
